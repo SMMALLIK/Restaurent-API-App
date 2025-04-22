@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+nav {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 40px;
+  color: white;
+  background-color: black;
+}
+nav h2 {
+  font-size: 1.5vw;
+}
+.inpSearch {
+  width: 25%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 5px;
+  /* background-color: red; */
+}
+.inpSearch input {
+    width: 80%;
+    height: 100%;
+    font-size: 1.3vw;
+    padding-left: 10px;
+}
+.inpSearch button {
+    height: 100%;
+    font-size: 1vw;
+    padding: 0px 5px;
+    cursor: pointer;
+    color: white;
+    background-color: red;
+}
+/* ---------------------main */
+main{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  main h1{
+    font-size: 2.2vw;
+    margin-top: 50px;
+  }
+.main1{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.card{
+  width: 300px;
+  height: 380px;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0px;
+    background-color: aqua;
+  }
+  .card img{
+    width: 100%;
+    height: 60%;
+  }
+  .card button{
+    font-size: 1.2vw;
+    padding: 3px 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: white;
+    background-color: red;
+  }
+  .content{
+    width: 35vw;
+    height: 40vh;
+    overflow: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    background-color: white;
+    display: none;
+  }
+  .content button{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    font-size: 16px;
+    padding: 3px 5px;
+    color: white;
+    background-color: red;
+  }
+  .contentTxt{
+    padding: 20px;
+  }
+  .contentTxt h3{
+    font-size: 2vw;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .contentTxt h4{
+    font-size: 1.4vw;
+    margin: 10px 0px;
+  }
